@@ -99,12 +99,12 @@ header .intro-text .name {
     display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
-    font-weight: 700;
+    font-size: 1.25em;
+    font-weight: 200;
 }
 
 header .intro-text .skills {
-    font-size: 1.25em;
+    font-size: 5.25em;
     font-weight: 300;
 }
 
@@ -115,12 +115,25 @@ header .intro-text .skills {
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 1.75em;
     }
 
     header .intro-text .skills {
         font-size: 1.75em;
     }
+}
+@media(min-width:768px) {
+
+    .img-profile {
+        display: block;
+        max-width: 50%;
+        height: 400px;
+    
+      }
+    
+
+
+    
 }
 
 @media(min-width:768px) {
@@ -418,6 +431,12 @@ footer .footer-below {
     background-color: transparent;
     cursor: pointer;
 }
+.img-profile {
+    display: block;
+    max-width: 50%;
+    max-height: 50%;
+
+  }
 
 .portfolio-modal .close-modal:hover {
     opacity: .3;
